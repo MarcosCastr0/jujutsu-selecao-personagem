@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jujutsu Kaisen Seleção de Personagens</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="shortcut icon" href="./src/imagens/logo.ico" type="image/x-icon">
+
+    <style>
+        @font-face {
+            font-family: 'Jujutsu';
+            src: url("src/Jujutsu\ Kaisen.ttf") format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="cabecalho"> 
+        <img class="logo" src="./src/imagens/logo-grande2.png.png" alt="Logo Jujutsu Kaisen"> 
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione o seu personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="yuji" data-name="Yuji Itadori" data-description="Yuji é famoso por suas habilidades físicas sobre-humanas,
+                além de ter a habilidade extremamente rara de conter a alma de Sukuna sem quaisquer efeitos nocivos">
+                    <img src="./src/imagens/yuji.jpg" alt="Personagem Yuji">
+                </li>
+                <li class="personagem" id="megumi" data-name="Megumi Fushiguro" data-description=" Ele usa seu poder de maldição para criar espíritos (Shikigami) de suas próprias sombras para exorcizar Maldições.">
+                    <img src="./src/imagens/megumi.jpg" alt="Personagem Megumi">
+                </li>
+                <li class="personagem" id="nobara" data-name="Nobara Kugisaki" data-description="Uma xamã que usa como arma principal um martelo e seus bonecos.">
+                    <img src="./src/imagens/nobara.jpg" alt="Personagem Nobara">
+                </li>
+                <li class="personagem" id="gojo" data-name="Satoru Gojo" data-description="Embora seu título de O Mais Forte seja autoproclamado, a maioria dos aliados e inimigos nunca disputam o título e geralmente o consideram uma das pessoas mais perigosas do mundo.">
+                    <img src="./src/imagens/gojo.jpg" alt="Personagem Gojo">
+                </li>
+                <li class="personagem" id="mahito" data-name="Mahito" data-description="Mahito é um espírito amaldiçoado de Grau Especial não registrado que eclipsa o poder de pelo menos três dedos de Sukuna. Ele é mais jovem que Jogo e, como resultado, é menos experiente e não tão poderoso.">
+                    <img src="./src/imagens/mahito.jpg" alt="Personagem Mahito">
+                </li>
+                <li class="personagem" id="hanami" data-name="Hanami" data-description="Hanami é um grande espírito bronzeado amaldiçoado com linhas pretas que percorrem todo o seu corpo. Por baixo do pano que Hanami veste, o braço esquerdo de Hanami é totalmente preto, mas os dedos são brancos, enquanto os dedos direitos são pretos. Hanami também tem uma flor maior em seu ombro esquerdo.">
+                    <img src="./src/imagens/hanami.jpg" alt="Personagem Hanami">
+                </li>
+                <li class="personagem" id="jogo" data-name="Jogo" data-description="Ele nasceu do medo da humanidade e da associação negativa com vulcões e outros desastres naturais relacionados ao fogo. Isso resultou em um espírito amaldiçoado altamente inteligente com níveis maciços de energia amaldiçoada.">
+                    <img src="./src/imagens/jogo.jpg" alt="Personagem Jougo">
+                </li>
+                <li class="personagem" id="geto" data-name="Suguru Geto" data-description="Suguru Geto foi um dos apenas quatro feiticeiros de grau especial e foi considerado o pior de todos os usuários de maldição devido ao nível de perigo que apresentava à humanidade.">
+                    <img src="./src/imagens/geto.jpg" alt="Personagem Geto">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/yuji.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Yuji Itadori</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Yuji é famoso por suas habilidades físicas sobre-humanas,
+                    além de ter a habilidade extremamente rara de conter a alma de Sukuna sem quaisquer efeitos nocivos </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
